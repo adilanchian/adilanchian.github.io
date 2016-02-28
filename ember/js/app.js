@@ -1,7 +1,7 @@
 App = Ember.Application.create();
 
 App.Router.map(function() {
-  this.route('app', {path: '/home'});
+  this.route('app', {path: '/'});
 });
 
 App.IndexRoute = Ember.Route.extend({
