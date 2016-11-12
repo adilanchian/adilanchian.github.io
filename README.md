@@ -7,7 +7,7 @@ and I hope you find it cool!<br>
 
 ## What Am I Using?
 - Ember CLI 2.9.1
-- Watchman (Some Version)
+- Watchman 4.7.0
 - Github Pages
 
 This page was made possible with Github Pages as well Ember.js!
