@@ -1,5 +1,13 @@
 # Alec Dilanchian Projects
 
-This is a compilation of all programs I have created in multiple high-level languages. Some of these programs were created for class assignments and posted upon successful completion of the course. Class assignments will be listed according to class and semester year. Code for these programs were created by me, unless otherwise stated in code comments. The concepts of these programs were created by University Of Central Florida professors, but executed by myself.<br>
+## About
+Welcome to my portfolio repository! The purpose of this site is to create a cool,
+original page using technology I am familiar with. Any feedback is greatly appreciated
+and I hope you find it cool!<br>
+
+## What Am I Using?
+- Ember CLI 2.9.1
+- Watchman (Some Version)
+- Github Pages
 
 This page was made possible with Github Pages as well Ember.js!
