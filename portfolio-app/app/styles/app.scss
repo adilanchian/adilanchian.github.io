@@ -3,3 +3,28 @@ $roboto-font-path: '../assets/';
 
 // Materialize styles
 @import "materialize";
+
+//-- Footer Stuck To Bottom --//
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  
+  main {
+    flex: 1 0 auto;
+    
+    //-- Index Page --//
+    .row {
+      .col {
+        border: 4px green solid;
+      }
+    }
+  }
+}
+footer.page-footer {
+  div.container {
+    a:hover {
+      color: green !important;
+    }
+  }
+}
