@@ -12,6 +12,10 @@ a {
 //-- Navbar --//
 .nav-wrapper {
   @extend .green, .lighten-2;
+  
+  a {
+    margin-left: 15px;
+  }
 }
 
 //-- Footer Stuck To Bottom --//
@@ -47,6 +51,14 @@ body {
     }
   }
   //-- Programs page --//
+  h2 {
+    margin-left: 15px;
+  }
+  .responsive-img {
+    &.programs {
+      max-width: 50%;
+    }
+  }
 }
 footer.page-footer {
   @extend .green, .lighten-2;
