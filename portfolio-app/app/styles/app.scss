@@ -25,13 +25,27 @@ body {
     flex: 1 0 auto;
     
     //-- Index Page --//
-    .row {
-      .col {
-        // border: 4px green solid;
+    .divider {
+      @extend .green, .lighten-2;
+      
+      &.title-section {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
       }
     }
+    
+    .description-section {
+      margin-top: 47px;
+    }
   }
-  
+  //-- About Me page --//
+  .responsive-img {
+    &.carousel {
+      width: 100%;
+      height: 500px;
+    }
+  }
   //-- Programs page --//
 }
 footer.page-footer {
