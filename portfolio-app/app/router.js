@@ -7,7 +7,11 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('programs');
+  this.route('programs', function() {
+    this.route('swift');
+    this.route('c');
+    this.route('java');
+  });
   this.route('projects');
   this.route('about');
 });
