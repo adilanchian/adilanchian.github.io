@@ -1,13 +1,15 @@
-<nav>
-  <div class="nav-wrapper">
-    {{#link-to "index" class="brand-logo"}}Alec Dilanchian{{/link-to}}
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li>{{#link-to "about"}}About Me{{/link-to}}</li>
-        <li>{{#link-to "programs"}}Programs{{/link-to}}</li>
-        <li>{{#link-to "projects"}}Projects{{/link-to}}</li>
-      </ul>
-  </div>
-</nav>
+{{!-- NavBar --}}
+{{#md-navbar name='Alec Dilanchian'}}
+  {{#link-to 'about' tagName='li'}}
+    {{link-to 'About Me' 'about'}}
+  {{/link-to}}
+  {{#link-to 'programs' tagName='li'}}
+    {{link-to 'Programs' 'programs'}}
+  {{/link-to}}
+  {{#link-to 'projects' tagName='li'}}
+    {{link-to 'Projects' 'projects'}}
+  {{/link-to}}
+{{/md-navbar}}
 <body>
   <main>
     {{outlet}}

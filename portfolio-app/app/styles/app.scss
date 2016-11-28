@@ -47,7 +47,7 @@ body {
   .responsive-img {
     &.carousel {
       width: 100%;
-      height: 500px;
+      height: auto;
     }
   }
   //-- Programs page --//
@@ -61,6 +61,7 @@ body {
   }
 }
 footer.page-footer {
+  padding-top: 6px;
   @extend .green, .lighten-2;
   div.container {
     a:hover {
