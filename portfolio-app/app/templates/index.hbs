@@ -1,22 +1,11 @@
-{{!-- Carousel --}}
-  {{#slick-carousel
-  class="ember-carousel"
-  autoplay=true
-  autoplaySpeed=2000
-  slidesToShow=1
-  slidesToScroll=1
-  dots=true
-  fade=true}}
-    <div><img class="responsive-img carousel" src="assets/images/skyline.jpg"></div>
-    <div><img class="responsive-img carousel" src="assets/images/some-person.jpg"></div>
-    <div><img class="responsive-img carousel" src="assets/images/ocean.jpg"></div>
-  {{/slick-carousel}}
+{{!-- Banner Image --}}
+<img class="responsive-img" src="assets/images/bg.jpg">
 {{!-- Title --}}
 <div class="section center">  
   <div class="row">
     <div class="col s12">
       <h1>My Name Is Alec.</h1>
-      <h4>I work on a few things</h4>
+      <h4>Come get to know me</h4>
     </div>
   </div>  
 </div>
@@ -27,27 +16,27 @@
     <div class="col s4">
       <div class="center promo">
       {{#link-to "programs"}}{{material-design-icon name="code" class="large"}}{{/link-to}}
-        <h5>Program</h5>
+        <h5>Programmer</h5>
         <p class="light center">
-          I do some pretty cool stuff. I know thanks so much!
+          School, self taught, and ready to learn Programming daily is what I do
         </p>
       </div>
     </div>
     <div class="col s4">
       <div class="center promo">
         {{#link-to "projects"}}{{material-design-icon name="web" class="large"}}{{/link-to}}
-        <h5>Develop</h5>
+        <h5>Developer</h5>
         <p class="light center">
-          I do some pretty cool stuff. I know thanks so much!
+          See my skills put to the test and take a look at what I've done
         </p>
       </div>
     </div>
     <div class="col s4">
       <div class="center promo">
-        {{#link-to "about"}}{{material-design-icon name="build" class="large"}}{{/link-to}}
-        <h5>Tinker</h5>
+        {{#link-to "about"}}{{material-design-icon name="create" class="large"}}{{/link-to}}
+        <h5>Creator</h5>
         <p class="light center">
-          I do some pretty cool stuff. I know thanks so much!
+          Creator at heart and ready to implement out of this world ideas
         </p>
       </div>
     </div>
