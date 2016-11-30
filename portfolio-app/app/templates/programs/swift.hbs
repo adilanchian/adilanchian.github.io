@@ -9,6 +9,9 @@
         {{#md-card-content}}
           {{card.content}}
         {{/md-card-content}}
+        {{#md-card-action}}
+          <a target="_blank" href="{{unbound card.link}}">{{card.linkTitle}}</a>
+        {{/md-card-action}}
       {{/md-card}}
     </div>
   {{/each}}
