@@ -43,11 +43,13 @@ body {
       margin-top: 47px;
     }
   }
-  //-- About Me page --//
-  .responsive-img {
-    &.carousel {
-      width: 100%;
-      height: auto;
+  
+  .row {
+    .card-image {
+      img {
+        width: 50%;
+        margin-left: 26%;
+      }
     }
   }
   //-- Programs page --//
