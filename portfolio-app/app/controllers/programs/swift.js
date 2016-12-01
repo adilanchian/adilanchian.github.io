@@ -19,7 +19,7 @@ export default Ember.Controller.extend({
         id: 'swiftycode',
         linkTitle: 'View in Github',
         link: '', //TODO: Add swiftyCode to projects repo //
-        content: 'Collborate on blocks of code using SwiftyCode through iMessage for iPhone'
+        content: 'Collaborate on blocks of code using SwiftyCode through iMessage for iPhone'
       },
       {
         title: 'The Forest',
