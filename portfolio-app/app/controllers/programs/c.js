@@ -10,7 +10,7 @@ export default Ember.Controller.extend({
         image: '../assets/images/tinyMachineScreenShot.png',
         id: 'tinymachine',
         linkTitle: 'View in Github',
-        link: '', // TODO: push projects repo and then update URL
+        link: 'https://github.com/adilanchian/Projects/tree/master/programs-in-c/TinyMachine',
         content: 'This program is a "virtual machine" written in C to simulate a computer with a one core CPU.'
       },
       {
@@ -34,7 +34,7 @@ export default Ember.Controller.extend({
         image: '../assets/images/linkedListC++.png',
         id: 'linkedlist',
         linkTitle: 'View in Github',
-        link: '', // TODO: push projects repo and then update URL
+        link: 'https://github.com/adilanchian/Projects/tree/master/programs-in-c%2B%2B/LinkedList',
         content: 'Choose your own adventure game, that takes you through multiple scenarios where you decide the outcome! Developed for Apple Watch using Swift' 
       },
     ];
