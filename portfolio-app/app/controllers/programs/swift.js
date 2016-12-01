@@ -18,7 +18,7 @@ export default Ember.Controller.extend({
         image: '../assets/images/SwiftyCode-iOS.png',
         id: 'swiftycode',
         linkTitle: 'View in Github',
-        link: '', //TODO: Add swiftyCode to projects repo //
+        link: 'https://github.com/adilanchian/Projects', 
         content: 'Collaborate on blocks of code using SwiftyCode through iMessage for iPhone'
       },
       {
