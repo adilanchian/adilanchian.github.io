@@ -53,8 +53,35 @@ body {
         }
       }
     }
+    .card {
+      .card-action {
+        a {
+          color: #000 !important;
+        }
+        a:hover {
+          color: #8bc34a !important;
+        }
+      }
+    }
   }
   //-- Programs page --//
+  .materialize-tabs {
+    margin-top: 20px;
+    .tabs {
+      .indicator {
+        background-color: #8bc34a;
+      }
+      .col {
+        a {
+          color: #000;
+          &:hover {
+            color: #8bc34a;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
   h2 {
     margin-left: 15px;
   }
@@ -69,6 +96,7 @@ footer.page-footer {
   @extend .green, .lighten-2;
   div.container {
     a:hover {
+      cursor: pointer;
       color: green !important;
     }
   }

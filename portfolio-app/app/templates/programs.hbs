@@ -1,19 +1,5 @@
-{{#link-to 'programs'}}<h2>Programs</h2>{{/link-to}}
-<div class="section">
-  <div class="row">
-    <div class="col s4 center">
-      {{#link-to "programs.swift"}}<img class="responsive-img circle programs" src="../assets/images/swift-og.png">{{/link-to}}
-      <h4>Swift</h4>
-    </div>
-    <div class="col s4 center">
-      {{#link-to "programs.c"}}<img class="responsive-img circle programs" src="../assets/images/C.png">{{/link-to}}
-      <h4>C/C++</h4>
-    </div>
-    <div class="col s4 center">
-      {{#link-to "programs.java"}}<img class="responsive-img circle programs" src="../assets/images/java.png">{{/link-to}}
-      <h4>Java</h4>
-    </div>
-  </div>
-</div>
+{{md-tabs
+    content=basicTabsContent
+    selected=basicTabsSelection}}
 {{!-- Program List Outlet--}}
 {{outlet}}
