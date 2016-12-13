@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'portfolio-app',
+    modulePrefix: 'adilanchian.github.io',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
@@ -43,6 +43,8 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
+    ENV.locationType = 'hash';
+    ENV.rootURL = '/portfolio-app/';
 
   }
 
