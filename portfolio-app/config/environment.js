@@ -45,6 +45,8 @@ module.exports = function(environment) {
   if (environment === 'production') {
     ENV.locationType = 'hash';
     ENV.rootURL = '/portfolio-app/';
+    ENV.locationType = 'hash';
+    ENV.rootURL = '/portfolio-app/';
 
   }
 
