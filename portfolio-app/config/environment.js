@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'adilanchian.github.io',
+    modulePrefix: 'portfolio-app',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
