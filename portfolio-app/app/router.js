@@ -12,7 +12,11 @@ Router.map(function() {
     this.route('c');
     this.route('java');
   });
-  this.route('projects');
+  this.route('projects', function() {
+    this.route('swift');
+    this.route('html');
+    this.route('hardware');
+  });
   this.route('about');
 });
 

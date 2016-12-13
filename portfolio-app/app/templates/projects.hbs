@@ -1,53 +1,6 @@
-<h2>Projects</h2>
-<div class="divider"></div>
-<<div class="row">
-  <div class="col l4 s12">
-      {{#md-card title="Card Title"
-        titleClass="orange-text"
-        image="../assets/images/icube.png"
-        id="image1"}}
-        {{#md-card-content}}
-          I am a very simple card. I am good at containing
-          small bits of information. I am convenient because
-          I require little markup to use effectively.
-        {{/md-card-content}}
-        {{#md-card-action}}
-          {{#link-to "programs"}}Link 1{{/link-to}}
-          {{#link-to "programs"}}Link 2{{/link-to}}
-        {{/md-card-action}}
-      {{/md-card}}
-  </div>
-  <div class="col l4 s12">
-      {{#md-card title="Card Title"
-        titleClass="orange-text"
-        image="../assets/images/icube.png"
-        id="image2"}}
-        {{#md-card-content}}
-          I am a very simple card. I am good at containing
-          small bits of information. I am convenient because
-          I require little markup to use effectively.
-        {{/md-card-content}}
-        {{#md-card-action}}
-          {{#link-to "programs"}}Link 1{{/link-to}}
-          {{#link-to "programs"}}Link 2{{/link-to}}
-        {{/md-card-action}}
-      {{/md-card}}
-  </div>
-  <div class="col l4 s12">
-      {{#md-card title="Card Title"
-        titleClass="orange-text"
-        image="../assets/images/icube.png"
-        id="image3"}}
-        {{#md-card-content}}
-          I am a very simple card. I am good at containing
-          small bits of information. I am convenient because
-          I require little markup to use effectively.
-        {{/md-card-content}}
-        {{#md-card-action}}
-          {{#link-to "programs"}}Link 1{{/link-to}}
-          {{#link-to "programs"}}Link 2{{/link-to}}
-        {{/md-card-action}}
-      {{/md-card}}
-  </div>
-</div>
+<h3>Projects</h3>
+{{md-tabs
+    content=basicTabsContent
+    selected=basicTabsSelection}}
+{{!-- Projects List Outlet--}}
 {{outlet}}

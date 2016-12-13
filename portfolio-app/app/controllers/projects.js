@@ -7,22 +7,26 @@ export default Ember.Controller.extend({
   keyObserver: function() {
     var currentTab = this.get('basicTabsSelection');
     switch (currentTab) {
-      case 'c':
-        this.transitionToRoute('programs.c');
+      case 'swift':
+        this.transitionToRoute('projects.swift');
       break;
-      case 'java':
-        this.transitionToRoute('programs.java');
+      case 'html':
+        this.transitionToRoute('projects.html');
+      break;
+      case 'hardware':
+        this.transitionToRoute('projects.hardware');
       break;
     }
   }.observes('basicTabsSelection'),
   
   setupController: function() {
     var dataArray = [ 
-      {id: 'c', title: 'C/C++'},
-      {id: 'java', title: 'Java'}
+      {id: 'swift', title: 'Swift'},
+      {id: 'html', title: 'HTML/CSS/JS'},
+      {id: 'hardware', title: 'Hardware'}
     ];
     
     this.set('basicTabsContent', dataArray);
-    this.set('basicTabsSelection', 'c');
+    this.set('basicTabsSelection', 'swift');
   }
-}); 
+});
