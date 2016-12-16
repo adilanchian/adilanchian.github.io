@@ -2170,7 +2170,7 @@ define("portfolio-app/templates/index", ["exports"], function (exports) {
         var el0 = dom.createDocumentFragment();
         var el1 = dom.createElement("img");
         dom.setAttribute(el1, "class", "responsive-img");
-        dom.setAttribute(el1, "src", "assets/images/bg.JPG");
+        dom.setAttribute(el1, "src", "assets/images/bg.jpg");
         dom.appendChild(el0, el1);
         var el1 = dom.createTextNode("\n");
         dom.appendChild(el0, el1);
@@ -3596,7 +3596,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("portfolio-app/app")["default"].create({"name":"portfolio-app","version":"0.0.0+415e65e4"});
+  require("portfolio-app/app")["default"].create({"name":"portfolio-app","version":"0.0.0+6cb69eb0"});
 }
 
 /* jshint ignore:end */
