@@ -1233,13 +1233,6 @@ define('portfolio-app/routes/programs/java', ['exports', 'ember'], function (exp
     }
   });
 });
-define('portfolio-app/routes/programs/swift', ['exports', 'ember'], function (exports, _ember) {
-  exports['default'] = _ember['default'].Route.extend({
-    setupController: function setupController(controller) {
-      controller.setupController();
-    }
-  });
-});
 define('portfolio-app/routes/projects', ['exports', 'ember'], function (exports, _ember) {
   exports['default'] = _ember['default'].Route.extend({
     setupController: function setupController(controller) {
@@ -2170,7 +2163,7 @@ define("portfolio-app/templates/index", ["exports"], function (exports) {
         var el0 = dom.createDocumentFragment();
         var el1 = dom.createElement("img");
         dom.setAttribute(el1, "class", "responsive-img");
-        dom.setAttribute(el1, "src", "assets/images/banner-image.jpg");
+        dom.setAttribute(el1, "src", "assets/images/banner-image.JPG");
         dom.appendChild(el0, el1);
         var el1 = dom.createTextNode("\n");
         dom.appendChild(el0, el1);
@@ -3596,7 +3589,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("portfolio-app/app")["default"].create({"name":"portfolio-app","version":"1.0.0+3cf901fb"});
+  require("portfolio-app/app")["default"].create({"name":"portfolio-app","version":"1.0.0+1182e214"});
 }
 
 /* jshint ignore:end */

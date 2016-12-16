@@ -254,15 +254,6 @@ define('portfolio-app/tests/routes/programs/java.jshint', ['exports'], function 
     assert.ok(true, 'routes/programs/java.js should pass jshint.');
   });
 });
-define('portfolio-app/tests/routes/programs/swift.jshint', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | routes/programs/swift.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'routes/programs/swift.js should pass jshint.');
-  });
-});
 define('portfolio-app/tests/routes/projects.jshint', ['exports'], function (exports) {
   'use strict';
 
