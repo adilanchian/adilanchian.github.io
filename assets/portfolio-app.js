@@ -2041,7 +2041,7 @@ define("portfolio-app/templates/index", ["exports"], function (exports) {
             },
             "end": {
               "line": 18,
-              "column": 85
+              "column": 81
             }
           },
           "moduleName": "portfolio-app/templates/index.hbs"
@@ -2063,7 +2063,7 @@ define("portfolio-app/templates/index", ["exports"], function (exports) {
           dom.insertBoundary(fragment, null);
           return morphs;
         },
-        statements: [["inline", "material-design-icon", [], ["name", "code", "class", "large"], ["loc", [null, [18, 35], [18, 85]]], 0, 0]],
+        statements: [["inline", "material-design-icon", [], ["name", "code", "class", "large"], ["loc", [null, [18, 31], [18, 81]]], 0, 0]],
         locals: [],
         templates: []
       };
@@ -2080,7 +2080,7 @@ define("portfolio-app/templates/index", ["exports"], function (exports) {
             },
             "end": {
               "line": 27,
-              "column": 80
+              "column": 86
             }
           },
           "moduleName": "portfolio-app/templates/index.hbs"
@@ -2102,7 +2102,7 @@ define("portfolio-app/templates/index", ["exports"], function (exports) {
           dom.insertBoundary(fragment, null);
           return morphs;
         },
-        statements: [["inline", "material-design-icon", [], ["name", "web", "class", "large"], ["loc", [null, [27, 31], [27, 80]]], 0, 0]],
+        statements: [["inline", "material-design-icon", [], ["name", "web", "class", "large"], ["loc", [null, [27, 37], [27, 86]]], 0, 0]],
         locals: [],
         templates: []
       };
@@ -2170,7 +2170,7 @@ define("portfolio-app/templates/index", ["exports"], function (exports) {
         var el0 = dom.createDocumentFragment();
         var el1 = dom.createElement("img");
         dom.setAttribute(el1, "class", "responsive-img");
-        dom.setAttribute(el1, "src", "assets/images/bg.jpg");
+        dom.setAttribute(el1, "src", "assets/images/banner-image.jpg");
         dom.appendChild(el0, el1);
         var el1 = dom.createTextNode("\n");
         dom.appendChild(el0, el1);
@@ -2339,7 +2339,7 @@ define("portfolio-app/templates/index", ["exports"], function (exports) {
         morphs[2] = dom.createMorphAt(dom.childAt(element0, [5, 1]), 1, 1);
         return morphs;
       },
-      statements: [["block", "link-to", ["programs.swift"], [], 0, null, ["loc", [null, [18, 6], [18, 97]]]], ["block", "link-to", ["projects"], [], 1, null, ["loc", [null, [27, 8], [27, 92]]]], ["block", "link-to", ["about"], [], 2, null, ["loc", [null, [36, 8], [36, 92]]]]],
+      statements: [["block", "link-to", ["programs.c"], [], 0, null, ["loc", [null, [18, 6], [18, 93]]]], ["block", "link-to", ["projects.swift"], [], 1, null, ["loc", [null, [27, 8], [27, 98]]]], ["block", "link-to", ["about"], [], 2, null, ["loc", [null, [36, 8], [36, 92]]]]],
       locals: [],
       templates: [child0, child1, child2]
     };
@@ -3596,7 +3596,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("portfolio-app/app")["default"].create({"name":"portfolio-app","version":"0.0.0+6cb69eb0"});
+  require("portfolio-app/app")["default"].create({"name":"portfolio-app","version":"1.0.0+3cf901fb"});
 }
 
 /* jshint ignore:end */
