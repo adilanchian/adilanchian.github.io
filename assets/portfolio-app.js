@@ -930,7 +930,7 @@ define('portfolio-app/initializers/data-adapter', ['exports', 'ember'], function
   exports['default'] = {
     name: 'data-adapter',
     before: 'store',
-    initialize: _ember['default'].K
+    initialize: function initialize() {}
   };
 });
 define('portfolio-app/initializers/ember-data', ['exports', 'ember-data/setup-container', 'ember-data/-private/core'], function (exports, _emberDataSetupContainer, _emberDataPrivateCore) {
@@ -1094,7 +1094,7 @@ define('portfolio-app/initializers/injectStore', ['exports', 'ember'], function 
   exports['default'] = {
     name: 'injectStore',
     before: 'store',
-    initialize: _ember['default'].K
+    initialize: function initialize() {}
   };
 });
 define('portfolio-app/initializers/md-settings', ['exports', 'portfolio-app/config/environment', 'ember-cli-materialize/services/md-settings'], function (exports, _portfolioAppConfigEnvironment, _emberCliMaterializeServicesMdSettings) {
@@ -1131,7 +1131,7 @@ define('portfolio-app/initializers/store', ['exports', 'ember'], function (expor
   exports['default'] = {
     name: 'store',
     after: 'ember-data',
-    initialize: _ember['default'].K
+    initialize: function initialize() {}
   };
 });
 define('portfolio-app/initializers/transforms', ['exports', 'ember'], function (exports, _ember) {
@@ -1146,7 +1146,7 @@ define('portfolio-app/initializers/transforms', ['exports', 'ember'], function (
   exports['default'] = {
     name: 'transforms',
     before: 'store',
-    initialize: _ember['default'].K
+    initialize: function initialize() {}
   };
 });
 define('portfolio-app/initializers/truth-helpers', ['exports', 'ember', 'ember-truth-helpers/utils/register-helper', 'ember-truth-helpers/helpers/and', 'ember-truth-helpers/helpers/or', 'ember-truth-helpers/helpers/equal', 'ember-truth-helpers/helpers/not', 'ember-truth-helpers/helpers/is-array', 'ember-truth-helpers/helpers/not-equal', 'ember-truth-helpers/helpers/gt', 'ember-truth-helpers/helpers/gte', 'ember-truth-helpers/helpers/lt', 'ember-truth-helpers/helpers/lte'], function (exports, _ember, _emberTruthHelpersUtilsRegisterHelper, _emberTruthHelpersHelpersAnd, _emberTruthHelpersHelpersOr, _emberTruthHelpersHelpersEqual, _emberTruthHelpersHelpersNot, _emberTruthHelpersHelpersIsArray, _emberTruthHelpersHelpersNotEqual, _emberTruthHelpersHelpersGt, _emberTruthHelpersHelpersGte, _emberTruthHelpersHelpersLt, _emberTruthHelpersHelpersLte) {
@@ -3589,7 +3589,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("portfolio-app/app")["default"].create({"name":"portfolio-app","version":"1.0.0+1182e214"});
+  require("portfolio-app/app")["default"].create({"name":"portfolio-app","version":"1.0.0+0035a7c4"});
 }
 
 /* jshint ignore:end */
