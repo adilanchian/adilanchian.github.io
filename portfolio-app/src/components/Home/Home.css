@@ -1,0 +1,33 @@
+.Home-content {
+  font-size: large;
+}
+
+.Home-divider {
+    width: 65%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: grey;
+}
+
+.Home-card-section {
+    width: 100%;
+}
+
+.Home-card {
+    width: 28%;
+    padding: 2%;
+    display: inline-block;
+}
+
+.Home-card:hover {
+    background-color: #bdedc0;
+}
+
+.Home-card a {
+    text-decoration: none;
+    color: #000
+}
+
+.Home-card .material-icons {
+    font-size: 60px;
+}

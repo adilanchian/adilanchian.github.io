@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-header, .App-footer {
+  background-color: #81C784;
+  height: 64px;
+  padding: 20px;
+  color: white;
+}
+
+.App-header a .App-title {
+    font-size: 1.5em;
+    float: left;
+}
+
+.App-nav {
+    float: right;
+    margin: 16px 0 16px 0;
+}
+
+.App-nav a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.App-footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.App-footer .App-portfolio-links a {
+    text-decoration: none;
+    padding: 3px;
+}
