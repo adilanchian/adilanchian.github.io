@@ -1,3 +1,23 @@
+.About-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-top: solid 2px #bdedc0;
+    border-bottom: solid 2px #bdedc0;
+}
+
+.About-section {
+    margin: auto;
+    font-size: 20px;
+}
+
+.About-section p {
+    line-height: 50px;
+}
+
+.About-section .me {
+    width: 45%;
+}
+
 img {
-    width: 50%;
+    width: 80%;
 }
