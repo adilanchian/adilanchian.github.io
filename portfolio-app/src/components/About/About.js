@@ -20,8 +20,8 @@ class About extends Component {
                             and how it works. Starting off with building a computer at 
                             thirteen, I soon became hooked. My passion for programming 
                             came later on in college while attending 10 hackathons in one year.
-                            I am an avid Twitch Programming Streamer always looking to build a community
-                            whilst helping others achieve their programming goals. 
+                            I am an avid Twitch Programming Streamer who has built a community
+                            of like minded people whilst helping them achieve their programming goals. 
                             Feel free to contact me with the social media links below or 
                             just take a look at my resume to checkout a summary of what I've done!
                         </p>
