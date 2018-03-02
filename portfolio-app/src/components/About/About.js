@@ -21,7 +21,7 @@ class About extends Component {
                             thirteen, I soon became hooked. My passion for programming 
                             came later on in college while attending 10 hackathons in one year.
                             I am an avid Twitch Programming Streamer always looking to build a community
-                            and help others achieve their programming goal. 
+                            whilst helping others achieve their programming goals. 
                             Feel free to contact me with the social media links below or 
                             just take a look at my resume to checkout a summary of what I've done!
                         </p>
